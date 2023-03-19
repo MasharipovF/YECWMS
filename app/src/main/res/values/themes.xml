@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <style name="Theme.YECWMS" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:forceDarkAllowed" tools:targetApi="29">false</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/primaryLightColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/secondaryLightColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+    </style>
+
+    <style name="Theme.YECWMS.Returns" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:forceDarkAllowed" tools:targetApi="29">false</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryCreditNoteColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkCreditNoteColor</item>
+        <item name="colorOnPrimary">@color/primaryLightCreditNoteColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryCreditNoteColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkCreditNoteColor</item>
+        <item name="colorOnSecondary">@color/secondaryLightCreditNoteColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primaryDarkCreditNoteColor</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize10Percent" parent="">
+        <item name="cornerSize">10%</item>
+    </style>
+</resources>

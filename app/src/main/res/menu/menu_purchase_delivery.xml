@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_open_scanner"
+        android:icon="@drawable/ic_baseline_print_24_white"
+        android:iconTint="@color/white"
+        android:title="GetAllItems"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/menu_generate_batches"
+        android:icon="@drawable/ic_baseline_settings_white_24"
+        android:title="GetAllItems"
+        app:showAsAction="always|collapseActionView" />
+
+
+</menu>

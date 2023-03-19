@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/inventory_transfer_insert_nav"
+    app:startDestination="@id/inventoryTransferSelectFragment">
+
+    <fragment
+        android:id="@+id/inventoryTransferSelectFragment"
+        android:name="com.example.yecwms.presentation.inventorytransfer.insertpage.InventoryTransferSelectFragment"
+        android:label="fragment_inventory_Transfer_select"
+        tools:layout="@layout/fragment_inventory_transfer_select" />
+    <fragment
+        android:id="@+id/inventoryTransferBasketFragment"
+        android:name="com.example.yecwms.presentation.inventorytransfer.insertpage.InventoryTransferBasketFragment"
+        android:label="fragment_inventory_Transfer_basket"
+        tools:layout="@layout/fragment_inventory_transfer_basket" />
+</navigation>

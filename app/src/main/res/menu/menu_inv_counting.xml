@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_save_to_storage"
+        android:icon="@drawable/ic_save"
+        android:title="GetAllItems"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/menu_load_from_storage"
+        android:icon="@drawable/ic_load_from_file"
+        android:title="GetAllItems"
+        app:showAsAction="always|collapseActionView" />
+
+</menu>

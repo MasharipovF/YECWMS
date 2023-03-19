@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sales_order_nav"
+    app:startDestination="@id/salesOrderSelect">
+
+    <fragment
+        android:id="@+id/salesOrderSelect"
+        android:name="com.example.yecwms.presentation.invoice.InvoiceSelectItemsFragment"
+        android:label="fragment_salesorder_select"
+        tools:layout="@layout/fragment_invoice_select" />
+    <fragment
+        android:id="@+id/salesOrderBasket"
+        android:name="com.example.yecwms.presentation.invoice.InvoiceBasketFragment"
+        android:label="fragment_salesorder_basket"
+        tools:layout="@layout/fragment_invoice_basket" />
+</navigation>

@@ -1,0 +1,215 @@
+<resources>
+    <string name="app_name">YEC WMS</string>
+    <string name="app_version">Версия 1.1.3</string>
+    <string name="loginHint">Имя пользователя</string>
+    <string name="passwordHint">Пароль</string>
+    <string name="connectBtn">ВОЙТИ</string>
+    <string name="networkError">Не удается подключиться к базе, проверьте подключение к Интернету</string>
+    <string name="askUsername">Пожалуйста введите имя пользователя</string>
+    <string name="askPassword">Пожалуйста введите пароль</string>
+
+    <string name="module_items">ТОВАРЫ</string>
+    <string name="module_purchase_deliveries">ПОСТУПЛЕНИЕ</string>
+    <string name="module_deliveries">ОТГРУЗКА</string>
+    <string name="doctype_item_add">НОВЫЙ ТОВАР</string>
+    <string name="doctype_item_list">СПИСОК ТОВАРОВ</string>
+    <string name="doctype_bp_add">НОВЫЙ КЛИЕНТОВ</string>
+    <string name="doctype_bp_list">СПИСОК КЛИЕНТОВ</string>
+    <string name="doctype_main">ГЛАВНАЯ</string>
+    <string name="doctype_transfers">ПЕРЕМЕЩЕНИЕ</string>
+
+
+    <string name="btn_reload">ПЕРЕЗАГРУЗИТЬ</string>
+    <string name="btn_add">ДОБАВИТЬ</string>
+    <string name="btn_generate">СГЕНЕРИРОВАТЬ</string>
+    <string name="btn_update">ОБНОВИТЬ</string>
+    <string name="btn_readd">ДОБАВИТЬ</string>
+    <string name="btn_cancel">ОТМЕНИТЬ</string>
+    <string name="btn_cancel_and_create">ОТМЕНИТЬ И СОЗДАТЬ</string>
+    <string name="btn_ok">ОК</string>
+    <string name="choose">Выберите…</string>
+
+    <string name="cardtype_customer">Заказчик</string>
+    <string name="cardtype_supplier">Поставщик</string>
+
+    <string name="settings_title">Настройки входа</string>
+    <string name="ipaddress">IP адрес</string>
+    <string name="portnumber">Порт</string>
+    <string name="companydb">Название базы данных</string>
+
+    <string name="user_settings_title">Настройки пользователя</string>
+    <string name="other_settings">Другие настройки</string>
+
+
+    <string name="quantity_pre_whs">Количество по складам</string>
+    <string name="iteminfo_item_name">Название товара</string>
+    <string name="iteminfo_item_group">Группа товара</string>
+    <string name="iteminfo_onhand">Общее количество</string>
+    <string name="iteminfo_price">Цена</string>
+    <string name="iteminfo_inventory_uom">Е/И учета</string>
+    <string name="iteminfo_sales_uom">Е/И продаж</string>
+    <string name="iteminfo_purchase_uom">Е/И закупок</string>
+    <string name="iteminfo_uom_group">Группа Е/И</string>
+
+    <string name="barcode">Штрихкод</string>
+    <string name="brutto">Брутто</string>
+    <string name="netto">Нетто</string>
+    <string name="tare">Тара</string>
+    <string name="bobbin">Кол-во бобин</string>
+    <string name="onhand_qty">Остаток</string>
+    <string name="quantity">Кол-во</string>
+    <string name="quantity_m2">Кол-во (м2)</string>
+
+
+    <string name="bpinfo_cardname">Имя бизнес-партнера</string>
+    <string name="bpinfo_address">Адрес</string>
+    <string name="bpinfo_phone">Телефон</string>
+    <string name="bpinfo_balance">Долг</string>
+    <string name="bpinfo_balance_byshop">По магазину</string>
+    <string name="bpinfo_balance_total">Общий</string>
+    <string name="bpinfo_orders">Сумма открытых заказов</string>
+    <string name="bpinfo_orders_byshop">Сумма открытых заказов по магазину</string>
+    <string name="bpinfo_cardgroup">Группа бизнес-партнера</string>
+    <string name="bpinfo_limit">Лимит</string>
+    <string name="bpinfo_default_pricelist">Прайс лист</string>
+    <string name="bpinfo_cardtype">Тип бизнес-партнера</string>
+
+
+    <string name="bpaddress_name">Название</string>
+    <string name="bpaddress_address">Адрес</string>
+
+    <string name="doc_changed">Документ изменен</string>
+    <string name="doc_resetchanges">Сбросить внесенные изменения?</string>
+    <string name="choose_batches">Указать партии…</string>
+
+
+    <string name="invoice_bpname">Клиент</string>
+    <string name="invoice_docdate">Дата регистрации</string>
+    <string name="invoice_docnum">Номер документа</string>
+    <string name="invoice_docduedate">Дата исполнения</string>
+    <string name="invoice_search">Поиск…</string>
+    <string name="invoice_quantity">Кол-во</string>
+    <string name="invoice_planned_quantity">План кол-во</string>
+    <string name="invoice_necessary_quantity">Необходимое кол-во</string>
+    <string name="invoice_price">Цена</string>
+    <string name="invoice_discount">Скидка %</string>
+    <string name="invoice_doctotal">Сумма со скидкой %s</string>
+    <string name="invoice_doctotal_paid_usd">Оплачено в USD</string>
+    <string name="invoice_doctotal_paid_uzs">Оплачено в UZS</string>
+    <string name="invoice_topay_usd">Сумма чека в USD</string>
+    <string name="invoice_topay_uzs">Сумма чека в UZS</string>
+    <string name="invoice_resttopay_usd">Осталось к оплате в USD</string>
+    <string name="invoice_resttopay_uzs">Осталось к оплате в UZS</string>
+    <string name="invoice_bpaddress">Адрес</string>
+    <string name="invoice_paycash_uzs">Наличными UZS</string>
+    <string name="invoice_paycash_usd">Наличными USD</string>
+    <string name="invoice_paycard">Картой </string>
+    <string name="invoice_payepayment_uzs">Эл. перевод (Click, Payme)</string>
+    <string name="invoice_paytransfer_uzs">Перечисление</string>
+    <string name="invoice_Change_usd">Сдача в USD</string>
+    <string name="invoice_Change_uzs">Сдача в UZS</string>
+
+    <string name="invoice_todebt_usd">Сдача в USD</string>
+    <string name="invoice_todebt_uzs">Сдача в UZS</string>
+
+    <string name="invoice_duedate">Срок оплаты</string>
+    <string name="invoice_dialog_adddoc">Добавление продажи</string>
+    <string name="invoice_dialog_alldebt">Вы действительно хотите записать все в долг?</string>
+    <string name="invoice_dialog_payall">Вы действительно хотите добавить продажу?</string>
+    <string name="invoice_otlojka_title">Добавление отложки</string>
+    <string name="invoice_delete_from_basket">Удалить с корзины?</string>
+    <string name="invoice_otlojka_msg">Вы действительно хотите отложить продажу?</string>
+    <string name="invoice_otlojka_update_msg">Вы действительно хотите обновить отложку?</string>
+    <string name="invoice_basket_linetotal">Сумма</string>
+    <string name="sales_manager">Менеджер</string>
+    <string name="sales_managers">Менеджеры</string>
+    <string name="choose_sales_manager">Выберите менеджера продаж</string>
+    <string name="remarks">Примечания</string>
+
+    <string name="payment_dialog_adddoc">Добавление платежа</string>
+    <string name="payment_dialog_pay">Вы действительно хотите добавить платеж?</string>
+
+    <string name="inventory_request_adddoc_title">Добавление запроса</string>
+    <string name="inventory_request_adddoc_message">Вы действительно хотите добавить запрос на перемещение?</string>
+    <string name="inventory_request_cancel_title">Отмена запроса</string>
+    <string name="inventory_request_cancel_message">Вы действительно хотите отменить запрос на перемещение?</string>
+
+    <string name="inventory_transfer_adddoc_title">Добавление документа</string>
+    <string name="inventory_transfer_adddoc_message">Вы действительно хотите добавить документ?</string>
+    <string name="inventory_transfer_cancel_title">Отмена документа</string>
+    <string name="inventory_transfer_cancel_message">Вы действительно хотите отменить документ?</string>
+    <string name="inventory_transfer_cancel_reason_title">Причина отмены</string>
+    <string name="inventory_transfer_cancel_reason_message">Пожалуйста укажите причину отмены</string>
+
+    <string name="adddoc_title">Добавление документа</string>
+    <string name="adddoc_message">Вы действительно хотите добавить документ?</string>
+
+    <string name="no_address">Нет адреса</string>
+    <string name="no_phone">Нет телефона</string>
+    <string name="items_list">Список товаров</string>
+    <string name="noitemfound">Не удалось найти товар!</string>
+    <string name="business_partners">Бизнес парнеры</string>
+    <string name="warehouses">Cклады</string>
+    <string name="warehouse">Cклад</string>
+    <string name="currency">Валюта</string>
+    <string name="bin_location">Складское место</string>
+    <string name="selected">Выбрано</string>
+    <string name="close">Закрыть</string>
+    <string name="generate_documents">Сгенерировать %1$d документов?</string>
+    <string name="generate_documents_loading">Сгенерировано %1$d документов из %2$d</string>
+    <string name="generate_documents_error">Не все документы сгенерированы, попробовать еще раз?</string>
+    <string name="document_series">Серия</string>
+    <string name="rowitem_discount">Скидка</string>
+
+    <string name="choose_widgets">Выберите функции, которые хотите использовать</string>
+    <string name="settings_widgets_label">Используемые функции</string>
+
+    <string name="settings_zebra_intent_action_label">ACTION строка ТСД (найдите и измените в настройках аппарата)</string>
+
+    <string name="search">Поиск…</string>
+    <string name="searchByItemName">Поиск по наименованию…</string>
+    <string name="noMoveDays">Дни без движения</string>
+    <string name="date_from">Дата с</string>
+    <string name="date_to">Дата по</string>
+
+
+    <string name="whs_type_chooser_label">Выбран </string>
+    <string name="whs_type_warehouse"> (склад)</string>
+    <string name="whs_type_bin_location"> (ячейка)</string>
+
+    <string name="batch_number">Партия: %s</string>
+
+
+    <!-- XPRINTER -->
+    <string name="printer_settings">Настройки принтера</string>
+    <string name="none_ble_device">Устройства не найдены</string>
+    <string name="none_ipaddress">Пожалуйста введите IP адрес</string>
+    <string name="connect_first">Пожалуйста сначала подключитесь к принтеру!</string>
+    <string name="btn_check_printer">Проверить</string>
+    <string name="printer_ip">Введите IP принтера</string>
+    <string name="con_success">Подключено успешно</string>
+    <string name="con_failed">Ошибка при подключении</string>
+    <string name="con_has_discon">Подключение было разорвано!</string>
+    <string name="text_for">Текст !</string>
+    <string name="print_header_text">Текст в верхней части</string>
+    <string name="print_bottom_text">Текст в нижней части</string>
+    <string name="print_shop_info">Информация о магазине</string>
+    <string name="printer_dpi">DPI</string>
+    <string name="printer_width">Ширина(мм)</string>
+    <string name="printer_maxchar">Макс симв</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dialog_inventory_counting_addtobasket_itemname">Товар</string>
+    <string name="dialog_inventory_counting_addtobasket_quantity">Текущее кол-во</string>
+    <string name="dialog_inventory_counting_addtobasket_quantity_to_add">Добавляемое кол-во</string>
+    <string name="choose_whs_barcode_error">Сначала выберите склад и(или) ячейку</string>
+    <string name="whs_not_added_to_document">Данный склад не найден в документе!</string>
+    <string name="see_batches">Посмотреть партии</string>
+    <string name="batches">Партии</string>
+    <string name="no_rate_set">Курс для данной валюты не установлен! Установите курс и попробуйте заново!</string>
+    <string name="set_rate_before_adding">Курс не установлен! Установите курс перед добавлением документа!</string>
+    <string name="inventory_choose_towhs">Выберите…</string>
+    <string name="cancel">Отмена</string>
+</resources>
